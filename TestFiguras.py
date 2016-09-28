@@ -46,6 +46,7 @@ class TestFiguras(unittest.TestCase):
 	def test_area_triangulo_lados_cincopuntodos_7(self):
 		resultado=self.figura.triangulo(5.2,7)
 		self.assertEqual(18.2,resultado)
+		#CIRCULO
 	def test_area_circulo_radio_2(self):
 		resultado=self.figura.circulo(2)
 		self.assertEqual(12.56,resultado)
