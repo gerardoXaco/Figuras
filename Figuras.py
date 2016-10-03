@@ -4,7 +4,7 @@ class Figuras:
         try:
             lado = float(lado)
             return lado * lado
-        except Exception, e:
+        except Exception:
             return 'dato incorrecto'
 
     def rectangulo(self, ladoH, ladoB):
@@ -20,12 +20,13 @@ class Figuras:
             ladoB = float(ladoB)
             ladoH = float(ladoH)
             return (ladoB * ladoH) / 2
-        except Exception, e:
+        except Exception:
             return 'dato incorrecto'
-
+"""
     def circulo(self, radio):
         try:
             radio = float(radio)
-            return (radio * radio) * math.pi
-        except Exception, e:
+            return (radio * radio) * 3.1416
+        except Exception:
             return 'dato incorrecto'
+"""
