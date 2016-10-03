@@ -10,4 +10,4 @@ before_script:
   - flake8 --max-complexity=15 --exclude=* .txt,*.md --max-line-length=200 *
 
 script: 
-   - python testFiguras.py -v
+   - python TestFiguras.py -v
