@@ -2,7 +2,7 @@
 hola flor
 """
 import unittest
-from figuras import Figuras
+from Figuras import Figuras
 class TestFiguras(unittest.TestCase):
 
 	def setUp(self):#se ejecuta antes de cada metodo
